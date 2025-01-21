@@ -39,7 +39,48 @@ body {
 }
 
 .button {
+    text-transform: uppercase;
     background-color: #7ae5fd;
     border-radius: 87px;
     padding: 21px 35px;
+    width: fit-content;
+}
+
+.reversed-button {
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 87px;
+    padding: 21px 35px;
+    width: fit-content;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 6vw;
+
+    height: 100vh;
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about__wrap {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about__wrap__text {
+    text-transform: uppercase;
+    font-size: 63px;
+    font-weight: 800;
+    color: white;
+}
+
+.about__wrap__subtext {
+    font-size: 20px;
 }
