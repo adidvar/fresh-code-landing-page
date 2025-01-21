@@ -5,3 +5,41 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+/*
+  Header
+*/
+
+.header {
+    padding: 40px 71px;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+}
+
+.header__avatar {
+    height: 100%;
+}
+
+.header__nav {
+    align-items: center;
+    display: flex;
+    gap: 24px;
+}
+
+.header__nav__element {
+}
+
+.button {
+    background-color: #7ae5fd;
+    border-radius: 87px;
+    padding: 21px 35px;
+}
