@@ -119,10 +119,12 @@
         </section>
 
         <section class="contacts">
-            <div class="contacts__top">
+            <div class="contacts__wrap__middle">
                 <h1 class="contacts__top__title">Контакти</h1>
+            </div>
+            <div class="contacts__wrap__text">
                 <div>
-                    <img src="img/phone.png" />
+                    <imgsrc ="img/phone.png" />
                     <p>
                         Якщо у вас виникають питання –<br />
                         телефонуйте за номером<br />
@@ -139,39 +141,37 @@
                     <p>Або пишіть нам у чат-бот</p>
                 </div>
             </div>
-            <div class="contacts__bottom">
-                <div class="contacts__wrap">
-                    <img src="img/email.jpg" />
-                </div>
+            <div class="contacts__wrap__middle contacts__wrap__white w1">
+                <img class="contacts__image" src="img/email.jpg" />
+            </div>
 
-                <div class="contacts__wrap">
-                    <form class="contacts__bottom__form">
-                        <label class="contacts__bottom__text">
-                            Щоб дізнаватися усі новини<br />фестивалю, підпишися
-                            на нашу<br />
-                            розсилку
-                        </label>
-                        <input
-                            class="field"
-                            type="text"
-                            id="name"
-                            placeholder="Імʼя"
-                            name="name"
-                            required
-                        />
+            <div class="contacts__wrap contacts__wrap__white w2">
+                <form class="contacts__bottom__form">
+                    <label class="contacts__bottom__text">
+                        Щоб дізнаватися усі новини<br />фестивалю, підпишися на
+                        нашу<br />
+                        розсилку
+                    </label>
+                    <input
+                        class="field"
+                        type="text"
+                        id="name"
+                        placeholder="Імʼя"
+                        name="name"
+                        required
+                    />
 
-                        <input
-                            class="field"
-                            type="email"
-                            id="email"
-                            placeholder="Емейл"
-                            name="email"
-                            required
-                        />
+                    <input
+                        class="field"
+                        type="email"
+                        id="email"
+                        placeholder="Емейл"
+                        name="email"
+                        required
+                    />
 
-                        <button class="sendbutton">Підписатися</button>
-                    </form>
-                </div>
+                    <button class="sendbutton">Підписатися</button>
+                </form>
             </div>
         </section>
     </body>
